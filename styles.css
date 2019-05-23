@@ -1,0 +1,31 @@
+/*
+$light-red: #ff4949;
+$dark-red: #c10000;
+$dark-grey: #dedede;
+$light-grey: #eeeeee;
+$font: #080808;
+*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #eeeeee;
+    color: #080808;
+    text-align: center;
+}
+
+#artboard {
+   width: 80vmin;
+   height: 80vmin;
+   margin: 0 auto;
+   display: grid;
+   background: white;
+}
+
+.square {
+	margin: 0;
+	padding: 0;
+    border: 1px solid black;
+	}
