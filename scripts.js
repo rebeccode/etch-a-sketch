@@ -22,3 +22,24 @@ function generateSquares() {
 // Generate the artboard grid
 generateArtboard(num);
 generateSquares(gridSize);
+
+// Change color on hover
+const square = document.querySelectorAll('.square');
+
+square.forEach((square) => {
+	square.addEventListener('mouseenter', (e) => {
+		square.classList.add('black')
+	})
+});
+
+// Reset button
+// const resetButton = document.querySelector(#'reset');
+
+// resetButton.addEventListener('onclick'), (e) => {
+
+// delete all existing divs with class square
+// add a prompt to enter a new number
+// put the new number through the functions above to output a new grid
+
+
+// }

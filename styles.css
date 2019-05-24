@@ -16,6 +16,12 @@ body {
     text-align: center;
 }
 
+h1 {
+	font-size: 3em;
+	padding: 0;
+	margin: 0;
+}
+
 #artboard {
    width: 80vmin;
    height: 80vmin;
@@ -29,3 +35,20 @@ body {
 	padding: 0;
     border: 1px solid black;
 	}
+
+.black {
+	background-color: black;
+}
+
+button {
+	width: 10vmin;
+	height: 5vmin;
+	background-color: #dedede;
+	border: 0;
+	margin: 1em;
+	border-radius: 20px;
+}
+
+button:hover {
+	background-color: #c10000;
+}
