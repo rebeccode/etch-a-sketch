@@ -79,6 +79,8 @@ const rainbowButton = document.querySelector('#rainbow');
 
 rainbowButton.addEventListener('click', (e) => {
 
+const square = document.querySelectorAll('.square');
+
 square.forEach((square) => {
 	    square.classList.add('rainbow')
 		square.addEventListener('mouseenter', (e) => {
@@ -91,6 +93,8 @@ square.forEach((square) => {
 const blackWhiteButton = document.querySelector('#b-w');
 
 blackWhiteButton.addEventListener('click', (e) => {
+	
+const square = document.querySelectorAll('.square');
 
 	square.forEach((square) => {
 		square.addEventListener('mouseenter', (e) => {
@@ -99,10 +103,13 @@ blackWhiteButton.addEventListener('click', (e) => {
 	});
 });
 
+
 // Eraser
 const eraserButton = document.querySelector('#eraser');
 
 eraserButton.addEventListener('click', (e) => {
+	
+const square = document.querySelectorAll('.square');
 
 	square.forEach((square) => {
 		square.addEventListener('mouseenter', (e) => {
