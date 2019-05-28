@@ -17,9 +17,10 @@ body {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 2em;
 	padding: 0;
 	margin: 0;
+    font-family: 'Londrina Sketch', cursive;
 }
 
 #artboard {
@@ -30,23 +31,61 @@ h1 {
    background: white;
 }
 
-.square {
+#artboard div {
 	margin: 0;
 	padding: 0;
-    border: 1px solid black;
+    border: 0.5px solid #dedede;;
 	}
 
+#menu {
+	width: 80vmin;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
 .black {
-	background-color: black;
+	background-color: rgba(0, 0, 0, 1);
 }
 
 button {
-	width: 10vmin;
-	height: 5vmin;
+    font-size: 1.2em;
 	background-color: #dedede;
 	border: 0;
-	margin: 1em;
+	padding: 0.5em;
+	margin: 0.5em;
 	border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  button {
+    font-size: 1em;
+    padding: 0.4em;
+    margin: 0.4em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  button {
+    font-size: 2em;
+    padding: 0.3em;
+    margin: 0.3em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  button {
+    font-size: 2em;
+    padding: 0.3em;
+    margin: 0.3em;
+
+  }
+}
+
+#reset {
+	font-weight: bold;
+	width: 20vmin;
 }
 
 button:hover {
